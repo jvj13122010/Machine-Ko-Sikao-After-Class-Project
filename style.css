@@ -1,0 +1,35 @@
+body{
+    color:goldenrod;
+    background-color: rgb(255, 158, 226);
+}
+.heading {
+    width: 80%;
+font-size: 22px;
+}
+.objects{
+    color: cornflowerblue;
+background-color:aquamarine;
+width: fit-content;
+border: 3px dotted rgb(160, 95, 95);
+font-size: 25px;
+}
+ 
+#camera{
+    border: 3px ridge royalblue;
+    width: 355px;
+    height: 300px;
+}
+.loader {
+     border: 16px solid #f3f3f3; 
+     /* Light grey */ border-top: 16px solid #3498db;
+      /* Blue */ border-radius: 50%; 
+      width: 120px;
+       height: 120px;
+        animation: spin 2s linear infinite;
+     } 
+     
+     
+     @keyframes spin {
+          0% { transform: rotate(0deg); }
+           100% { transform: rotate(360deg); } 
+        }
